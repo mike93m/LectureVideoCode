@@ -24,9 +24,15 @@ public class Database {
 
     public void addNewMovie(Movie movie) {
 
-        try (Connection connection = DriverManager.getConnection(databasePath);
-             Statement statement = connection.createStatement()) {
+        String insertSQL = "INSERT INTO movies VALUES (?, ?, ?)";
 
+        try (Connection connection = DriverManager.getConnection(databasePath);
+           PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
+
+            preparedStatement.setString(1, movie.getName());
+            preparedStatement.setInt(2, movie.getStars());
+            preparedStatement.setBoolean(3, movie.isWatched());
+            preparedStatement.execute();
 
         } catch (SQLException e) {
             System.out.println("Error adding movie " + movie + " because " + e);
