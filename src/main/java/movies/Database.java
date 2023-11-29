@@ -10,6 +10,7 @@ public class Database {
 
 
     Database(String databasePath) {
+        // Hello
 
         this.databasePath = databasePath;
 
