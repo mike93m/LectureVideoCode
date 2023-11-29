@@ -12,6 +12,11 @@ public class Movie {
         this.watched = watched;
     }
 
+    @Override
+    public String toString() {
+        return "Movie name: " + name + " is rated " + stars + " stars. Have you watched this movie? " + watched;
+    }
+
     public String getName() {
         return name;
     }

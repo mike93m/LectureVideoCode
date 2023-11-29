@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c95726f-4c0a-45ca-b522-1207f1a1f127" name="Changes" comment="Working on week 9/10 lecture code(database operations practice)">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie_watchlist.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_watchlist.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/movie_watchlist.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/movies/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movies/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/movies/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movies/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/movies/MovieList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movies/MovieList.java" afterDir="false" />
@@ -103,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700765296918</updated>
-      <workItem from="1700765298038" duration="15499000" />
+      <workItem from="1700765298038" duration="29678000" />
     </task>
     <task id="LOCAL-00001" summary="Working on week 9/10 lecture code(database operations practice)">
       <option name="closed" value="true" />
@@ -121,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701025406903</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working on week 9/10 lecture code(database operations practice)">
+      <option name="closed" value="true" />
+      <created>1701040989590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701040989590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Working on week 9/10 lecture code(database operations practice)">
+      <option name="closed" value="true" />
+      <created>1701041014382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701041014382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
